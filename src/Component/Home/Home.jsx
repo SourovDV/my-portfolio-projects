@@ -1,9 +1,15 @@
+import Banner from "../Banner/Banner";
+import CatagoryList from "../Catagory/CatagoryList";
+import FeaturedJobs from "../FearturedJobs/FeaturedJobs";
+
  
 const Home = () => {
     return (
-        <div>
-            <p>Hellow, everyOne, i am a root file, today, can i help you</p>
-        </div>
+        <div className="container mx-auto">
+            <Banner></Banner>
+            <CatagoryList></CatagoryList>
+            <FeaturedJobs></FeaturedJobs>
+         </div>
     );
 };
 
